@@ -10,7 +10,7 @@ const Css = () => {
         <title>css</title>
       </Helmet>
       <Header />
-      <Main anas="css" />
+      css
       <Footer />
     </div>
   );

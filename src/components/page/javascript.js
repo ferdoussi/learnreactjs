@@ -10,7 +10,7 @@ const Javascript = () => {
         <title>js</title>
       </Helmet>
       <Header />
-      <Main anas="js" />
+      js
       <Footer />
     </div>
   );

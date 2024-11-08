@@ -9,7 +9,7 @@ function Home() {
         <title>anas</title>
       </Helmet>
       <Header />
-      <Main anas='anas'/>
+      <Main />
       <Footer />
     </div>
   );

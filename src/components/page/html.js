@@ -10,7 +10,7 @@ const Html = () => {
         <title>html</title>
       </Helmet>
       <Header />
-      <Main anas="html" />
+      html
       <Footer />
     </div>
   );

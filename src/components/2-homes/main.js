@@ -1,10 +1,12 @@
-import React from 'react';
+import { useState,useEffect } from 'react';
 import './main.css'
-const Main = ({anas}) => {
+const Main = () => {
+  useEffect(() => {
+     // Add any effect logic here
+  }, []);
   return (
     <div className='main' >
-      {anas}
-      
+    
     </div>
   );
 }
