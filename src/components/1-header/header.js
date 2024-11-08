@@ -6,7 +6,7 @@ function Header(){
     <div>
       <header>
     <div className="container">
-        <Link to="/" className="logo">VotreLogo</Link>
+        <Link to="/" className="logo">languages</Link>
         <nav>
             <ul>
               

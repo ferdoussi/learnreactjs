@@ -11,14 +11,16 @@ header {
   margin: auto;
 }
 .html.active{
- color: red;
- border: 1px solid white;
- border-radius: 10px;
+ color: teal;
+ font-size: 20px;
+ text-decoration:2px underline;
 }
 .logo {
   font-size: 24px;
   font-weight: bold;
   color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
 nav ul {
   list-style: none;
@@ -29,6 +31,7 @@ nav ul li a, .cta {
   color: #fff;
   text-decoration: none;
   padding: 10px 15px;
+  font-size: 20px;
 }
 .cta {
   background: #f39c12;
