@@ -1,6 +1,6 @@
 import React from "react";
 import './header.css';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 function Header(){
   return(
     <div>
@@ -10,9 +10,9 @@ function Header(){
         <nav>
             <ul>
               
-                <li><Link to="html">Html</Link></li>
-                <li><Link to="css">Css</Link></li>
-                <li><Link to="js">Js</Link></li>
+                <li><NavLink to="/html" className="html" >Html</NavLink></li>
+                <li><NavLink to="/css" className="html">Css</NavLink></li>
+                <li><NavLink to="/js" className="html">Js</NavLink></li>
                 
             </ul>
         </nav>

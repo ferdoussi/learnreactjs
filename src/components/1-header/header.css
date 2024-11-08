@@ -10,6 +10,11 @@ header {
   max-width: 1200px;
   margin: auto;
 }
+.html.active{
+ color: red;
+ border: 1px solid white;
+ border-radius: 10px;
+}
 .logo {
   font-size: 24px;
   font-weight: bold;
